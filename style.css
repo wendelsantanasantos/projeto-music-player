@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-image: linear-gradient(to bottom , rgb(0, 91, 105) , rgb(1, 30, 45));
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: auto;
+    height: 100vh;
+    
+}
+
+main{
+    width: 280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h3{
+margin-bottom: 80px;
+font-size: 1em;
+opacity: 80%;
+}
+
+.containerimg{
+margin: auto;
+width: 100%;
+height: 260px;
+
+}
+
+img{
+width: 90%;
+height: 95%;
+border: solid 5px #ffffff;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.188);
+}
+
+.info{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#banda{
+    opacity: 70%;
+    font-size: 0.8em;
+}
+#musica{
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+#baraprogresso{
+    height: 2.2px;
+    width: 100%;
+    margin: auto;
+    background-color: #535353;
+    border-radius: 2px;
+}
+
+#progresso{
+   --progress: 0%;
+   height: inherit;
+   background-color: #fff;
+   width:var(--progress);
+   border-radius: inherit;
+}
+
+#containerbarra{
+    padding-top: 3px;
+    margin: 0px 5px;
+}
+
+#like{
+    margin-right: 10px;  
+    opacity: 70%;
+    font-size: 1em;
+
+}
+
+.button{
+    display: inline-flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+button{
+    background-color: inherit;
+    color: #fff;
+    border-style: none;
+    cursor: pointer;
+}
+
+#embaralhar{
+font-size: 1.5em;
+opacity: 70%;
+}
+#voltar{
+font-size: 2em;
+}
+#avancar{
+font-size: 2em;
+}
+#start{
+ font-size: 2.8em;
+}
+#repetir{
+font-size: 1.5em;
+opacity: 70%;
+}
+
+.button-active{
+    color: greenyellow;
+}
+
+#timer-box{
+    font-size: smaller;
+    justify-content: space-between;
+    display:flex;
+    flex-direction: row;
+    color: #aaaaaa;
+    margin-top: 3px;
+}
+
+#timer{
+    color: #ebeaea;
+}
+
+
+.teste{
+   color:  linear-gradient(to bottom , rgb(0, 91, 105) , rgb(1, 30, 45));
+   color: linear-gradient(to bottom , rgb(193, 51, 19) , rgb(45, 1, 9));
+   color: linear-gradient(to bottom , rgb(185, 173, 6) , rgb(43, 45, 1));;
+
+}
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h3 id="playlistname">player de musica</h3>
+        <div class="containerimg">
+            <img id="capa" alt="imagem de capa"></div>
+
+        <audio id="audio" src="songs/Ainsibaslavida-Indila.mp3"></audio>
+
+        
+        <div class="info">
+            <div class="infosong">
+            <div id="musica"></div>
+            <div id="banda">nome da banda</div>
+            </div>
+         <button id="like"><i class="bi bi-heart"></i></button>
+        </div>
+            <div id="containerbarra">
+                <div id="baraprogresso">
+                <div id="progresso"></div>
+                </div>
+                <div id="timer-box">
+                    <div id="timer">00:00</div>
+                    <div id="duracao">00:00</div>
+                </div>
+            </div>
+
+        <div class="button">
+            <button id="embaralhar"><i class="bi bi-shuffle"></i></button>
+            <button id="voltar"><i class="bi bi-skip-start"></i></button>
+            <button id="start"><i class="bi bi-play-circle-fill"></i></button>
+            <button id="avancar"><i class="bi bi-skip-end"></i></button>
+            <button id="repetir"><i class="bi bi-arrow-repeat"></i></button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
