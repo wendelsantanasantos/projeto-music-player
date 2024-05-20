@@ -27,7 +27,7 @@ main{
 }
 
 h3{
-margin-top: 20px;
+margin-top: 30px;
 margin-bottom: 60px;
 font-size: 1em;
 opacity: 80%;
@@ -41,7 +41,7 @@ height: 55%;
 }
 
 img{
-width: 90%;
+width: 95%;
 height: 95%;
 border-radius: 5px;
 border: solid 5px #e2dddd5f;
@@ -49,7 +49,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.322);
 }
 
 .info{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 15px;
     text-align: left;
     display: flex;
@@ -61,15 +61,15 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.322);
 
 #banda{
     opacity: 70%;
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
 #musica{
     font-weight: bolder;
-    font-size: 1.3em;
+    font-size: 1.6em;
 }
 
 #baraprogresso{
-    height: 2.2px;
+    height: 2.4px;
     width: 100%;
     margin: auto;
     background-color: #535353;
@@ -92,14 +92,14 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.322);
 #like{
     margin-right: 10px;  
     opacity: 70%;
-    font-size: 1.3em;
+    font-size: 1.8em;
 
 }
 
 .button{
     display: inline-flex;
     margin-top: 3px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     align-items: center;
     justify-content: space-around;
 
@@ -113,20 +113,20 @@ button{
 }
 
 #embaralhar{
-font-size: 1.7em;
+font-size: 2em;
 opacity: 70%;
 }
 #voltar{
-font-size: 2.2em;
+font-size: 2.4em;
 }
 #avancar{
-font-size: 2.2em;
+font-size: 2.4em;
 }
 #start{
- font-size: 3.2em;
+ font-size: 3.5em;
 }
 #repetir{
-font-size: 1.7em;
+font-size: 2em;
 opacity: 70%;
 }
 

@@ -35,7 +35,7 @@ const letgo = {
 }
 
 const lacampanella = {
-    nomemusica : "lacampanella",
+    nomemusica : "Lacampanella",
     bandaname : "Niccolo Paganini",
     file:"Lacampanella-NiccoloPaganini",
     favorito: false,
@@ -45,7 +45,7 @@ const lacampanella = {
 /*definiçoes iniciais */
 
 let tocando = false
-const playlist = [baslavida, letgo , lacampanella]
+const playlist = JSON.parse(localStorage.getItem('playlist') ) ?? [baslavida, letgo , lacampanella]
 let randomlist = [...playlist]
 let embaralhado = false
 let repeticao = false
